@@ -1,0 +1,38 @@
+.container{
+    height: 1000px;
+    width: 1613px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/508/192/HD-wallpaper-castelo-anime-ceu-arvore.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+.fotocadastro{
+    align-self: center;
+    margin-top: 100px;
+}
+img{
+    border-radius: 10px;
+}
+
+}
+.formulario{
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 180px;
+    height: 150px;
+    padding: 10px;
+    box-shadow: 6px 5px 5px;
+    align-self: center;
+}
+
+button:hover{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+}
