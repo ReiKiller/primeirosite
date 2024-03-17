@@ -1,9 +1,10 @@
 .container{
-    height: 1000px;
-    width: 1613px;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 body{
@@ -30,9 +31,19 @@ img{
     box-shadow: 6px 5px 5px;
     align-self: center;
 }
+button{
+    margin-left: 50px;
+    margin-top: 20px;
+}
 
 button:hover{
     background-color: green;
     border: 2px solid black;
     border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
 }
