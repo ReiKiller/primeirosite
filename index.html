@@ -5,20 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 3 mosqueteiros </title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>    
+<body>   
     <div class="container">
-        <div class="fotocadastro">
-            <img src="https://buritiempreendimentos.com.br/wp-content/uploads/2022/08/BOTAO-FAC%CC%A7A-SEU-CADASTRO-ALCSO-370x139.png" width="400px" height="200px" alt="">
-        </div>
+
         <div class="formulario">
     <form action="">
-        <label for="username">Usuario</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Senha</label>
-        <input type="password" id="password" name="password" required></label>
-        <button type="submit"><a href="card.html">continuar</a></button>
-    </form></div>
+        <h1>Login</h1>
+        <div class="input-box">
+        <input type="text" placeholder="Usuário" required>
+        <i class='bx bxs-user'></i>
+    </div>
+
+        <div class="input-box">
+        <input type="password" placeholder="Senha" required>
+        <i class='bx bxs-lock-alt'></i>
+    </div>
+       
+    
+        <div class="remember-forgot">
+            <label><input type="checkbox">Lembrar de mim</label>
+            <a href="#">Esqueceu sua senha?</a>
+        </div> 
+        <button type="submit" class="btn" formaction="card.html">Continuar</button>
+
+        <div class="register-link">
+            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+        </div>
+    </form>
 </div>
+</main> 
 </body>
 </html>
