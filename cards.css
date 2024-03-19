@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmuuWI1rdvCOUKP3hSqZR56pvRe_YpVygCWw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border: 1px solid rgb(238, 3, 3);
+    border-radius: 5px;
+    width: 280px; 
+    height: 460px;
+    margin: 2px;
+    background-color: transparent;
+    backdrop-filter: blur(50px);   
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 90px
+}
+
+.card img{
+    border: 5px solid black;
+}
