@@ -1,7 +1,6 @@
 header{
     text-align: center;
-    font-size: 50px;
-    color: white;
+    background-color: black;
 }
 
 main {
@@ -11,25 +10,40 @@ main {
 
 body{
     min-height: 100vh;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmuuWI1rdvCOUKP3hSqZR56pvRe_YpVygCWw&usqp=CAU);
+    background-color: aqua;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .card {
-    border: 1px solid rgb(238, 3, 3);
-    border-radius: 5px;
+    border: 5px solid rgb(7, 7, 7);
+    border-radius: 10px;
     width: 280px; 
-    height: 460px;
-    margin: 2px;
-    background-color: transparent;
+    height: 480px;
+    padding: 3px;
+    background-color: white;
     backdrop-filter: blur(50px);   
     margin-bottom: 20px;
     text-align: center;
-    margin: 90px
+    margin: 80px
 }
 
 .card img{
-    border: 5px solid black;
+    border: 3px solid black;
+    margin-top: 75px;
+    padding: 20px;
+}
+
+.card button{
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+    font-size: x-large;
+}
+
+.card button:hover{
+    background-color: blueviolet;
 }
