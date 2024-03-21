@@ -26,7 +26,8 @@ body{
     backdrop-filter: blur(50px);   
     margin-bottom: 20px;
     text-align: center;
-    margin: 80px
+    margin: 80px;
+    display: block;
 }
 
 .card img{
@@ -44,6 +45,61 @@ body{
     font-size: x-large;
 }
 
+main div.card:hover{
+    background-color: yellowgreen;
+}
+
 .card button:hover{
     background-color: blueviolet;
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        text-align: center;
+        background-color: black;
+    }
+
+    .card {
+        border: 5px solid rgb(7, 7, 7);
+        border-radius: 10px;
+        width: 280px; 
+        height: 480px;
+        padding: 3px;
+        background-color: white;
+        backdrop-filter: blur(50px);   
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 10px;
+        display: block;
+    }
+
+    .card button{
+        border: 2px solid black;
+        background-color: gray;
+        border-radius: 10px;
+        width: 60px;
+        height: 40px;
+        font-size: small;
+    }
+    
+
+}
+
+@media screen and (max-width: 652px){
+    .card {
+        border: 5px solid rgb(7, 7, 7);
+        border-radius: 10px;
+        width: 280px; 
+        height: 480px;
+        padding: 3px;
+        background-color: white;
+        backdrop-filter: blur(50px);   
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 10px;
+        display: block;
+        flex-direction: column;
+        margin-left: 150px;
+
+    }
 }
