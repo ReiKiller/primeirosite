@@ -132,7 +132,7 @@ button:hover{
 
 @media screen and (max-width: 1000px) {
     .container{
-        width: auto;
+        width: 100%;
         background-color: transparent;
         border: 2px solid rgba(255, 255, 255, .2);
         backdrop-filter: blur(20px);
