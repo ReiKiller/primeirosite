@@ -25,6 +25,7 @@ background-position: center;
     color: white;
     border-radius: 10px;
     padding: 30px 40px;
+    overflow-y: hidden;
 }
 
 .container h1{
@@ -131,15 +132,15 @@ button:hover{
 
 @media screen and (max-width: 1000px) {
     .container{
-        width: 40%;
+        width: auto;
         background-color: transparent;
         border: 2px solid rgba(255, 255, 255, .2);
         backdrop-filter: blur(20px);
         box-shadow: 0 0 10px rgba(0, 0, 0, .1);
         color: white;
         border-radius: 15px;
-        padding: 30px 40px;
-        margin: 40px;
+        padding: 10px 10px;
+        margin: 20px;
         overflow-y: hidden;
     }
 
