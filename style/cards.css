@@ -1,0 +1,111 @@
+header{
+    text-align: center;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    backdrop-filter: blur(50px);
+    background-image: url(https://i.pinimg.com/236x/4f/b7/35/4fb735450ccd37f844681e08fbaca7f8.jpg);
+    min-height: 100vh;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card {
+    border: 5px solid rgb(7, 7, 7);
+    border-radius: 7px;
+    width: 280px; 
+    height: 480px;
+    padding: 3px;
+    background-color: white;
+    backdrop-filter: blur(50px);   
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 80px ;
+    display: block;
+    box-shadow: 9px 9px 15px;
+    transition: transform 0.3s ease;
+}
+
+.card img{
+    border: 3px solid black;
+    margin-top: 75px;
+    padding: 20px;
+}
+
+.card button{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 42px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+main div.card:hover{
+    transform: scale(1.1);
+}
+
+.card button:hover{
+    background-color: red;
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        text-align: center;
+        background-color: black;
+    }
+
+    .card {
+        border: 5px solid rgb(7, 7, 7);
+        border-radius: 10px;
+        width: 280px; 
+        height: 480px;
+        padding: 3px;
+        background-color: white;
+        backdrop-filter: blur(50px);   
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 10px;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .card button{
+        border: 2px solid black;
+        background-color: gray;
+        border-radius: 10px;
+        width: 60px;
+        height: 40px;
+        font-size: small;
+    }
+    
+
+}
+
+@media screen and (max-width: 652px){
+    .card {
+        border: 5px solid rgb(7, 7, 7);
+        border-radius: 10px;
+        width: 280px; 
+        height: 550px;
+        padding: 3px;
+        background-color: white;
+        backdrop-filter: blur(50px);   
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 10px;
+        display: block;
+        flex-direction: column;
+        margin-left: 150px;
+
+    }
+}
